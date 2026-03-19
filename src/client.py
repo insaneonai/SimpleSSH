@@ -158,7 +158,7 @@ def start_interactive_shell(client_socket, derived_key):
                     break
                 data = recv_exact(client_socket, length)
                 output = decryptor.update(data)
-                sys.stdout.buffer.write(output)   # ✅ raw bytes, no print()
+                sys.stdout.buffer.write(output) 
                 sys.stdout.buffer.flush()
             except Exception:
                 break
