@@ -2,7 +2,7 @@
 
 A Simple SSH-like implementation built from scratch (not entirely i indeed used cryptography and pty packages).
 
-I also have a video recorded of me implementing this check it out: https://www.youtube.com/watch?v=mXwZXscztyw&t=2509s
+I also have a video recorded of me implementing this check it out: [https://www.youtube.com/watch?v=mXwZXscztyw&t=2509s](https://youtu.be/mXwZXscztyw?si=6nmAjibJduS1KZgd)
 
 This project implements a secure client-server system with:
 
